@@ -1,0 +1,83 @@
+objects - nouns
+functions - verbs
+
+----------------------------------------------------------------------------
+FUNCTION - anything that has an input/output, 
+statements, and executing logic, or a block of code { }
+
+The THREE requirements
+    1. the function name
+    2. input (optional): list of parameters
+    3. the code itself: what does the function do?
+
+-----------------------------------------------------------------------------
+Ex) function writeSomeText() {
+        console.log("Some text");
+    }
+
+Examples of already defined functions:
+    1. mousePressed()
+    2. draw()
+    3. line()
+    4. circle()
+
+-----------------------------------------------------------------------------
+
+Example of function with parameters:
+
+writeThisText("Hello World");
+
+function writeThisText(input){
+    console.log(input);
+}
+
+>> Hello World
+
+-----------------------------------------------------------------------------
+
+Array - storage, holds elements
+
+let myArray = [];
+myArray.push(5,3,67, "hi", 2.0);
+
+-----------------------------------------------------------------------------
+
+Object - a collection of properties
+Property - key:value pair
+Class - a template
+
+// 1) Object Literal - static
+let kPerson = {
+    firstName: "kat";
+    lastName: "sullivan";
+}
+
+kPerson.firstName = "Kathleen";     //to change
+
+
+
+// 2) constructor function in a class template
+
+class Person{
+    constructor(firstName, lastName, job){
+        this.firstName = firstName;         //this refers to the specific object created
+        this.lastName = lastName;
+        this.job = job;
+    }
+
+    printfullname() {
+        console.log(this.first + " " this.last);
+    }
+}
+
+let myPerson = new Person("Kat", "Sullivan", "Teacher");
+let prez = new Person("Joe", "Biden", "President");
+
+myPerson.fullname();
+prez.fullname();
+>> Kat Sullivan
+>> Joe Biden
+
+-----------------------------------------------------------------------------
+
+
