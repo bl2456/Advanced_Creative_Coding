@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <button id="animation">Start</button>
+    <h3>Stroke Value</h3>
+    <input type="range" min="1" max="5" value="1" class="slider" id="strokeSlider" step="0.5">
+    <p id="strokeValue"></p>
+    <h3>Rotation Speed</h3>
+    <input type="range" min="-0.1" max="0.1" value="0.01" class="slider" id="rotationSlider" step="0.01">
+    <p id="rotationValue"></p>
+    <script src="sketch.js"></script>
+  </body>
+</html>
