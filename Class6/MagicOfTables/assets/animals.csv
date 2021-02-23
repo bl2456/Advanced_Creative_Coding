@@ -1,0 +1,6 @@
+Name,NumberOfLegs,Domesticated
+Dog,4,True
+Tiger,4,False
+Elephant,4,False
+Snake,0,True
+Ant,6,True
