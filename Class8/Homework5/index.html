@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Live BitCoin Price Index</h1>
+    <h3>Prices are calculated and published per minute by <a href="https://www.coindesk.com/price/bitcoin">CoinDesk</a></h3>
+    <select id="currency">
+
+    </select>
+    <button id="showData">Find Price</button>
+    
+    <h3>Search Records</h3>
+    <table id="searchRecords">
+      <tr>
+        <th>Code</th>
+        <th>Description</th>
+        <th>Rate</th>
+        <th>Rate Last Updated</th>
+        <th>Time of Search</th>
+      </tr>
+    </table>
+    <script src="sketch.js"></script>
+  </body>
+</html>
