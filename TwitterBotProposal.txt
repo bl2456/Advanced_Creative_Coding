@@ -1,0 +1,13 @@
+Midterm Twitter Bot: Matchday Bot
+API: API-Football (soccer)
+	- has both paid and free subscription plans
+	- free limits api requests to 100 per day
+
+Description: The bot, at the start of each day, will post a list of popular football fixtures that will be 
+played that day. For each match, the bot will also post relevant information pertaining the two teams involved. 
+After all games have been played (tentative), the bot will post results (and potentially updated league table).
+
+Motivation: My dad and his friends (and me) are quite the football fans. Due to quarantine, football games have 
+become even more essential to them. Instead of him asking me what games are on today, why not have a bot tell 
+him instead? I think the bot will also be useful to those that are busy with work and can't necessarily browse
+their phones. The bot can just tell them info everyday without the need for them to actively browse the web.
