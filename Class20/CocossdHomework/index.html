@@ -14,6 +14,40 @@
   </head>
 
   <body>
+    <div id='rules-container'>
+      <div id='rules'>
+        <div id='gameTitle'>ML Guessing Game</div>
+        <div id="gameDescription">
+          <p>Please click the "Capture" button when the objects you wish to use have been recognized.</p>
+          <p>The game will reward you a point for each object the model gets correct.</p>
+          <p>You may end the game whenever you like by clicking on the end game button.</p>
+        </div>
+        <button id='startBtn' class='myButton'>Start</button>
+      </div>
+    </div>
+
+    <div id='game-container'>
+      <div id="scoreBoard">
+        <div>Total Score: <span id='totalScore'></span></div>
+        <div>Objects Identified: <span id='totalIDed'></span></div>
+        <div>Objects Wrong: <span id='totalWrong'></span></div>
+      </div>
+      <div id='canvas-container'></div>
+      <button id='captureBtn' class='myButton'>Capture</button>
+      <div id='decision-container'>
+        <div id='decisionContent'>
+          <div id='resultStatement'>The model guessed: <span id='resultsDisplay'></span></div>
+          <form action="/">
+            <label for='pointSelect'>How many correct?</label>
+            <select name='pointSelect' id='pointSelect'>
+
+            </select>
+            <input type='submit' value='Submit' id='pointSubmit' class='myButton'>
+          </form>
+        </div>
+      </div>
+      <button id='endGame' class='myButton'>End Game</button>
+    </div>
     <script src="sketch.js"></script>
   </body>
 </html>
