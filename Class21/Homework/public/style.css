@@ -28,6 +28,7 @@ canvas {
 }
 
 #chatContainer{
+  position: relative;
   background-color: #93E1D8;
   height: 70%;
   width: 60%;
@@ -36,12 +37,14 @@ canvas {
 }
 
 #chatContainer > div {
+  position: relative;
   font-size: 2rem;
   border: 1px black solid;
   border-radius: 15px;
   margin: 5px;
   padding: 5px;
   color: #ffffffde;
+  width: 80%;
 }
 
 #msgButton{

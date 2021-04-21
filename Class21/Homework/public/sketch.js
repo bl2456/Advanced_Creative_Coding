@@ -30,6 +30,8 @@ function enteredChat(){
   let line = document.createElement('div');
   line.innerHTML = 'You: ' + userText;
   line.style.backgroundColor = '#D9594C';
+  line.style.marginLeft = 'auto';
+  line.style.marginRight = '0';
   chatText.appendChild(line);
   userText = '';
   //send data to server
